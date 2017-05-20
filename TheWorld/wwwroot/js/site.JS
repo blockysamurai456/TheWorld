@@ -1,14 +1,23 @@
 ﻿//site.JS
 (function () {
-    var ele = document.getElementById("username");
-    ele.innerHTML = "My Stupid Brother";
 
-    var main = document.getElementById("main");
-    main.onmouseenter = function () {
-        main.style = "background-Color: #888";
-    };
-    main.onmouseleave = function () {
-        main.style = "";
-    };
+    
+
+    //var ele = $("#username");
+    //ele.text("My Stupid Brother");
+    //
+    //var main = $("#main");
+    //main.on("mouseenter", function () {
+    //    main.style = "background-Color: #888";
+    //});
+    //main.on("mouseleave", function () {
+    //    main.style = "";
+    //});
+    //
+    //var menuItems = $("ul.menu li a");
+    //menuItems.on("click", function () {
+    //    var me = $(this);
+    //    alert(me.text());
+   
 })();
 
