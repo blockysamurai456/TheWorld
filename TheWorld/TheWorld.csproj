@@ -13,6 +13,7 @@
     <Content Include="wwwroot\img\article-2199249-14DE9EBD000005DC-719_233x342.jpg" />
     <Content Include="wwwroot\img\ASL.id" />
     <Content Include="wwwroot\img\tt-kevin-allen-hed-2012.jpg" />
+    <Content Include="wwwroot\js\site.JS" />
     <Content Include="wwwroot\site.CSS" />
   </ItemGroup>
 

@@ -40,7 +40,7 @@ input[type=submit], input[type=password], textarea {
     .menu li{
         list-style-type: none;
     }
-    .menu li.active { 
+   .menu li.active { 
         font-weight: bold;
     }
 #sidebar {
