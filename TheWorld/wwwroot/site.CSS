@@ -51,8 +51,18 @@ input[type=submit], input[type=password], textarea {
     width: 250px;
     overflow: hidden;
     left: 0;
-    margin: 0
+    margin: 0;
+    transition: left ease .25s;
 }
+    #sidebar.hide-sidebar {
+        left: -250px;
+        transition: left ease .25s;
+    }
 #wrapper{
     margin: 0px 0px 0px 250px;
+    transition: margin-left ease .25s;
 }
+    #wrapper.hide-sidebar{
+        margin-left: 0;
+        transition: margin-left ease .25s;
+    }
