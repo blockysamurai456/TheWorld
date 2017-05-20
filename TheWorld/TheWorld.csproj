@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="wwwroot\Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\img\article-2199249-14DE9EBD000005DC-719_233x342.jpg" />
+    <Content Include="wwwroot\img\ASL.id" />
+    <Content Include="wwwroot\img\tt-kevin-allen-hed-2012.jpg" />
+    <Content Include="wwwroot\site.CSS" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="KK.AspNetCore.StaticFileCache" Version="0.0.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\CSS\" />
+  </ItemGroup>
+
+</Project>
