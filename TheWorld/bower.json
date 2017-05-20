@@ -1,0 +1,8 @@
+{
+  "name": "TheWorld",
+  "private": true,
+    "dependencies": {
+        "underscore": "*",
+        "jquery": "*"
+    }
+}
