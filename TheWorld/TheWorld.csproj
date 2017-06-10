@@ -10,10 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="wwwroot\img\article-2199249-14DE9EBD000005DC-719_233x342.jpg" />
-    <Content Include="wwwroot\img\ASL.id" />
+    <Content Include="wwwroot\CSS\site.CSS" />
     <Content Include="wwwroot\img\fi_ATTLB.jpg" />
-    <Content Include="wwwroot\img\tt-kevin-allen-hed-2012.jpg" />
     <Content Include="wwwroot\js\site.JS" />
     <Content Include="wwwroot\site.CSS" />
   </ItemGroup>
@@ -25,9 +23,8 @@
     <PackageReference Include="KK.AspNetCore.StaticFileCache" Version="0.0.1" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="wwwroot\CSS\" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="1.1.3" />
   </ItemGroup>
 
 </Project>
