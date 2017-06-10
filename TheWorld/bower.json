@@ -7,7 +7,9 @@
         "jquery-validation": "*",
         "jquery-validation-unobtrusive": "*",
         "bootstrap": "*",
-        "font-awesome": "*"
+        "font-awesome": "*",
+        "bootswatch": "*"
+
 
     }
 }

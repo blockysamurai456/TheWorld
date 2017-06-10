@@ -23,16 +23,12 @@ namespace TheWorld.Controllers.Web
 
         public IActionResult Index()
         {
-
             return View();
-
         }
 
         public IActionResult Contact()
         {
-            
             return View();
-
         }
         [HttpPost]
         public IActionResult Contact(ContactViewModel model)
@@ -46,22 +42,13 @@ namespace TheWorld.Controllers.Web
             {
                 _mailService.SendMail(_config["MailSettings:ToAddress"], model.Email, "From TheWorld", model.Message);
             }
-
             ModelState.Clear();
-
             ViewBag.UserMessage = "Message Sent";
-
             return View();
-
-            
         }
-
         public IActionResult About()
         {
-
             return View();
-
         }
-
     }
 }
